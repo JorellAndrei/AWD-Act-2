@@ -1,7 +1,7 @@
 const letter = document.querySelectorAll('#_letters #_letter');
 
 letter.forEach((letter) => {
-    letter.addEventListener('click', () =>{
+    letter.addEventListener('mouseover', () => {
         letter.classList.toggle('active')
     })
 })
